@@ -37,3 +37,4 @@ def map_to_square(array)
   end 
   result_array
 end 
+
