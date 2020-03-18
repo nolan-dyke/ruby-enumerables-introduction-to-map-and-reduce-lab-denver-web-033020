@@ -40,6 +40,7 @@ end
 
 def reduce_to_total(array, starting_point)
   index = 0 
+  if starting_point
   total = starting_point
   while index < array.length do 
     total += array[index]
