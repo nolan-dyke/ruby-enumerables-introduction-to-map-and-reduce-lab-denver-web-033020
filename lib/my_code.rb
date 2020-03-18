@@ -38,8 +38,9 @@ def map_to_square(array)
   result_array
 end 
 
-def reduce_to_total(array, total)
+def reduce_to_total(array, integer)
   index = 0 
+  total = integer
   while index < array.length do 
     total += array[index]
     index += 1 
