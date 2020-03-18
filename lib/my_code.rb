@@ -22,7 +22,7 @@ def map_to_double(array)
   index = 0 
   result_array = [] 
   while index < array.length do 
-    result_array << array[index] * 2
+    result_array << (array[index] * 2)
     index += 1 
   end 
   result_array
