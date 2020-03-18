@@ -58,3 +58,14 @@ def reduce_to_all_true(array)
   end 
   return true 
 end 
+
+def reduce_to_any_true(array)
+  index = 0 
+  while index < array.length do 
+    if array[index]
+      return true
+    end 
+    index += 1 
+  end 
+  return false 
+end 
