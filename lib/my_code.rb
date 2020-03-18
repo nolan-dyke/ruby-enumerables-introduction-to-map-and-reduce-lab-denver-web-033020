@@ -47,3 +47,14 @@ def reduce_to_total(array, starting_point = 0)
   end 
   total
 end 
+
+def reduct_to_all_true(array)
+  index = 0 
+  while index < array.length do 
+    if array[index] != true 
+      return false
+    end 
+    index += 1 
+  end 
+  return true 
+end 
